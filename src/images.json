@@ -1,62 +1,62 @@
 [
     {
         "id": 1,
-        "image": "../public/images/Arya-Stark.jpeg",
+        "image": "./images/Arya-Stark.png",
         "clicked": false
     },
     {
         "id": 2,
-        "image": "../public/images/Brienne-of-Tarth.jpeg",
+        "image": "./images/Brienne-of-Tarth.png",
         "clicked": false
     },
     {
         "id": 3,
-        "image": "../public/images/Daenerys-Targaryen.jpeg",
+        "image": "./images/Daenerys-Targaryen.png",
         "clicked": false
     },
     {
         "id": 4,
-        "image": "../public/images/Grey-worm.jpeg",
+        "image": "./images/Grey-worm.png",
         "clicked": false
     },
     {
         "id": 5,
-        "image": "../public/images/Jaime-Lannyster.jpeg",
+        "image": "./images/Jaime-Lannyster.png",
         "clicked": false
     },
     {
         "id": 6,
-        "image": "../public/images/Jon-Snow.jpeg",
+        "image": "./images/Jon-Snow.png",
         "clicked": false
     },
     {
         "id": 7,
-        "image": "../public/images/Khal-Drogo.jpeg",
+        "image": "./images/Khal-Drogo.png",
         "clicked": false
     },
     {
         "id": 8,
-        "image": "../public/images/Samwell-Turly.jpeg",
+        "image": "./images/Samwell-Turly.png",
         "clicked": false
     },
     {
         "id": 9,
-        "image": "../public/images/Sandor-'The-Hound'-Clegane.jpeg",
+        "image": "./images/Sandor-'The-Hound'-Clegane.png",
         "clicked": false
     },
     {
         "id": 10,
-        "image": "../public/images/Sansa-Stark.jpeg",
+        "image": "./images/Sansa-Stark.png",
         "clicked": false
     },
     {
         "id": 11,
-        "image": "../public/images/Tormund.jpeg",
+        "image": "./images/Tormund.png",
         "clicked": false
     },
     {
         "id": 12,
-        "image": "../public/images/Tyrion-Lannister.jpeg",
+        "image": "./images/Tyrion-Lannister.png",
         "clicked": false
     }
 ]

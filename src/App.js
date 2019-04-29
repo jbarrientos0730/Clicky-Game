@@ -1,6 +1,11 @@
 import React, {Component} from 'react';
 import Navbar from "./components/Navbar.js"
 import images from "./images.json";
+import Card from "./components/Card.js";
+import Column from "./components/Column.js";
+import Container from "./components/Container.js";
+import Wrapper from "./components/Wrapper.js";
+import Row from "./components/Row.js"
 
 function shuffleImages(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -58,12 +63,32 @@ class App extends Component {
 
   render(){
     return(
-      <Navbar
-        title="GOT Clicky Game"
-        score={this.state.score}
-        topScore={this.state.topScore}
+      <Wrapper>
+        <Navbar
+          title="GOT Clicky Game"
+          score={this.state.score}
+          topScore={this.state.topScore}
         />
-    )
+
+        <Container>
+          <Row>
+            {this.state.images.map(image => (
+              <Column size="md-3 sm-6">
+                <Card
+                  key={image.id}
+                  handleClick = {this.handleClick}
+                  handleIncrement = {this.handleIncrement}
+                  handleReset = {this.handleReset}
+                  handleShuffle = {this.handleShuffle}
+                  id = {image.id}
+                  image = {image.image}
+                />
+              </Column>
+            ))}
+          </Row>
+        </Container>
+      </Wrapper>
+    );
   }
 }
 
