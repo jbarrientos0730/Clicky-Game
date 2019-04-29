@@ -1,13 +1,12 @@
 import React from "react";
+import "./styles/Navbar.css"
 
 function Navbar(props){
     return(
-        <nav>
-            <ul>
-                <li className="nav-title"><a href="/clicky-game/">{props.title}</a></li>
-                <li id="greeting">Click an image to begin!</li>
-                <li id="scoreboard">Score: {props.score}|Top Score: {props.topScore}</li>
-            </ul>
+        <nav className="navbar navbar-dark bg-dark justify-content-between">
+            <a className="navbar-brand" href="/clicky-game/"><h2>{props.title}</h2></a>
+            <h5>Click an image to begin!</h5>
+            <h5>Score: {props.score} | Top Score: {props.topScore}</h5>
         </nav>
     )
         
