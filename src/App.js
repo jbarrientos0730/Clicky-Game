@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Navbar from "./components/Navbar"
+import images from "./images.json";
 
 function shuffleImages(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -54,4 +55,12 @@ class App extends Component {
     let shuffledImages = shuffleImages(images);
     this.setState({ images: shuffledImages });
   };
+
+  render(){
+    return(
+      <Navbar/>
+    )
+  }
+}
+
 export default App;
