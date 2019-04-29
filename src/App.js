@@ -75,7 +75,7 @@ class App extends Component {
             {this.state.images.map(image => (
               <Column size="md-3 sm-6">
                 <Card
-                  key={image.id}
+                  key = {image.id}
                   handleClick = {this.handleClick}
                   handleIncrement = {this.handleIncrement}
                   handleReset = {this.handleReset}
