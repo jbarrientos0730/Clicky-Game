@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar.js"
 import images from "./images.json";
 
 function shuffleImages(array) {
@@ -58,7 +58,11 @@ class App extends Component {
 
   render(){
     return(
-      <Navbar/>
+      <Navbar
+        title="GOT Clicky Game"
+        score={this.state.score}
+        topScore={this.state.topScore}
+        />
     )
   }
 }
